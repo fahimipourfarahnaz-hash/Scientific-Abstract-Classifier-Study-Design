@@ -55,11 +55,7 @@ if st.button("Classify Study Design", type="primary"):
         # Provide a simple rationale
         if classification == "Cohort Study":
             st.write(f"The abstract contains the keyword(s) **'cohort'**, which is characteristic of a **Cohort Study** where a group of people is followed over time to observe outcomes.")
-            
         else:
             st.write("This classification is based on identifying specific keywords within the abstract that are commonly associated with a particular study design. The current model is a basic keyword-based classifier and may not be as accurate as a more advanced machine learning model.")
     else:
         st.warning("Please paste an abstract to classify.")
-
-[Text Classifier App with Streamlit and River Python (Online Machine Learning)](https://www.youtube.com/watch?v=PI8Y8-cqeIw) This video shows how to build a text classifier application using Streamlit and the River Python library for online machine learning.
-http://googleusercontent.com/youtube_content/0
